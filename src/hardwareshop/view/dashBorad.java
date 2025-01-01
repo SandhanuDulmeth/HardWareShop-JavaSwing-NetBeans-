@@ -40,6 +40,7 @@ public class dashBorad extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setBackground(new java.awt.Color(102, 153, 255));
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton1.setText("Inventory Management");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -49,6 +50,7 @@ public class dashBorad extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(134, 76, -1, -1));
 
         jButton2.setBackground(new java.awt.Color(255, 102, 153));
+        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton2.setText("Customer Management");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -58,6 +60,7 @@ public class dashBorad extends javax.swing.JFrame {
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(134, 117, -1, -1));
 
         jButton3.setBackground(new java.awt.Color(255, 255, 102));
+        jButton3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton3.setText("Sales Management");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -67,6 +70,7 @@ public class dashBorad extends javax.swing.JFrame {
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(134, 152, 155, -1));
 
         jButton4.setBackground(new java.awt.Color(102, 255, 102));
+        jButton4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton4.setText("Sales Reports");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -76,11 +80,12 @@ public class dashBorad extends javax.swing.JFrame {
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(134, 187, 155, -1));
 
         jLabel1.setFont(new java.awt.Font("Showcard Gothic", 0, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("DAsh BOrad Hard Ware Shop");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(79, 16, -1, 42));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/image-ui.png"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 250));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/ui-shop.jpg"))); // NOI18N
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 430, 270));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
